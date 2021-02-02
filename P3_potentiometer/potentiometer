@@ -14,4 +14,3 @@ void loop(){
   Serial.println(brightness);   // print value of brightness on Serial Monitor
   analogWrite(led, brightness);  // supplies a PWM signal of the value in brightness
 }
-
